@@ -39,6 +39,7 @@ export default function Home() {
           priority
         />
         <p>Preview Test</p>
+        <p>Preview Test</p>
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
