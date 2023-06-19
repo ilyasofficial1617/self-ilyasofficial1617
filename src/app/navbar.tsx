@@ -14,7 +14,7 @@ const menu = [
 export default function NavBar() {
   const pathname = usePathname();
   return (
-    <div className="fixed flex h-12 w-screen items-center justify-between bg-teal-400 px-2 text-teal-50">
+    <div className="fixed flex h-12 w-screen items-center justify-between bg-primary px-2 text-primary-contrast">
       <div className="px-2 text-2xl font-bold">ilyasofficial1617</div>
       <ul className="flex hidden flex-row font-medium md:inline-flex">
         {menu.map(function (item, index) {
