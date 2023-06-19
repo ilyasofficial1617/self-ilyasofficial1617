@@ -14,9 +14,9 @@ const menu = [
 export default function NavBar() {
   const pathname = usePathname();
   return (
-    <div className="flex h-12 items-center justify-between bg-teal-400 px-2 text-teal-50">
+    <div className="fixed flex h-12 w-screen items-center justify-between bg-teal-400 px-2 text-teal-50">
       <div className="px-2 text-2xl font-bold">ilyasofficial1617</div>
-      <ul className="flex flex-row font-medium">
+      <ul className="flex hidden flex-row font-medium md:inline-flex">
         {menu.map(function (item, index) {
           const isActive = pathname.startsWith(item.path);
           const addClass = isActive ? " text-amber-200" : "";
